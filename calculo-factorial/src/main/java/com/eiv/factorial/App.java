@@ -11,7 +11,7 @@ public class App {
         String sNumero = s.nextLine();
         int numero = Integer.valueOf(sNumero);
         
-        CalculoFactorial factorial = new CalculoFactorialImpl();
+        CalculoFactorial factorial = new CalculoFactorialAlt2Impl();
         long resultado = factorial.calcular(numero);
         System.out.println("Factorial de " + numero + " es " + resultado);
         
